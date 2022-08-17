@@ -141,7 +141,22 @@ p{
     padding-left: 200px;
     padding-right: 200px;
 }
+.skills{
+    text-align: justify;
+    font-size: 26px;
+    padding-left: 200px;
+    padding-right: 200px;
+    list-style-type: circle;
+}
 .link-page{
     text-align: center;
     font-size: 24px;
+}
+.link-page li a{
+    color:white;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.link-page li a:hover{
+    color: #FEC544;
 }
